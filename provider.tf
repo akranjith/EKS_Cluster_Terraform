@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     bucket = "awseamo2"
     key    = "ajs/terraform.tfstate"
-    region = "ap-south-1"   
+    region = "us-east-1"   
   }
 }
 
